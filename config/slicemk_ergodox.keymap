@@ -27,7 +27,7 @@
     &none      &none      &kp LALT   &kp LEFT   &kp DARW                                               &kp UARW   &kp RARW   &kp RALT   &none      &none
                                                            &kp DEL    &kp HOME   &kp END    &kp INS
                                                                       &kp PGUP   &kp PGDN
-                                                &kp SPC    &kp LCTL                         &kp LSHFIT &kp ENTER
+                                                &kp SPC    &kp LCTL                         &kp LSFT   &kp ENTER
                                                                       &kp LGUI   &mo 1
                         >;
                 };
