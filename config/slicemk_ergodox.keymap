@@ -12,6 +12,8 @@
 #define KP_AST KP_ASTERISK
 #define KP_MIN KP_MINUS
 #define KP_PLS KP_PLUS
+#define CVDN C_VOL_DN
+#define CVUP C_VOL_UP
 
 / {
         keymap {
@@ -24,11 +26,11 @@
     &kp DEL    &kp Q      &kp W      &kp F      &kp P      &kp B      &kp LBKT   &kp RBKT   &kp J      &kp L      &kp U      &kp Y      &kp SEMI   &kp MINUS
     &kp BKSP   &kp A      &kp R      &kp S      &kp T      &kp G                            &kp K      &kp N      &kp E      &kp I      &kp O      &kp APOS
     &kp LSFT   &kp Z      &kp X      &kp C      &kp D      &kp V      &kp LPAR   &kp RPAR   &kp M      &kp H      &kp COMMA  &kp PERIOD &kp FSLH   &kp RSFT
-    &kp LCTRL  &kp LALT   &kp LEFT   &kp RIGHT  &lt 1 GRV                                              &lt 2 BSLH &kp DOWN   &kp UP     &kp RALT   &kp RCTRL
+    &kp LCTRL  &kp LALT   &kp LEFT   &kp RIGHT  &lt 4 TAB                                              &lt 2 BSLH &kp DOWN   &kp UP     &kp RALT   &kp RCTRL
                                                            &kp HOME   &kp END    &kp PGUP   &mt RW CPS
-                                                                      &kp LWIN   &kp PGDN
-                                                &kp SPACE  &kp TAB                          &kp ENTER  &kp LSFT
-                                                                      &tog 4     &tog 1
+                                                                      &kp GRV    &kp PGDN
+                                                &kp SPACE  &mo 1                            &kp ENTER  &kp LSFT
+                                                                      &kp LWIN   &tog 1
                         >;
                 };
                 
@@ -41,9 +43,9 @@
     &trans     &trans     &kp KP_N0  &kp KP_CMA &kp KP_DOT &kp KP_PLS &kp TAB    &trans     &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 3
     &trans     &trans     &kp C_RW   &kp C_FF   &trans                                                 &trans     &trans     &trans     &trans     &bt BT_SEL 4
                                                            &trans     &trans     &trans     &trans
-                                                                      &trans     &trans
-                                                &trans     &kp KP_ETR                       &trans     &trans
-                                                                      &trans     &trans
+                                                                      &kp CVUP   &trans
+                                                &trans     &trans                           &trans     &trans
+                                                                      &kp CVDN   &trans
                         >;
 				};
 		
