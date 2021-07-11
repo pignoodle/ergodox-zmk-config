@@ -37,8 +37,8 @@
                 layer_1 {
                         bindings = <
     &bootloader
-    &trans     &trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_SLH &kp KP_NUM &tog 3     &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 0
-    &trans     &kp K_CUT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_AST &kp KP_EQL &trans     &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 1
+    &trans     &trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_SLH &kp KP_NUM &trans     &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 0
+    &trans     &kp K_CUT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_AST &kp SPACE  &trans     &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 1
     &trans     &kp K_PST  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MIN                       &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 2
     &trans     &kp K_COPY &kp KP_N0  &kp KP_CMA &kp KP_DOT &kp KP_PLS &kp TAB    &trans     &trans     &trans     &trans     &trans     &trans     &bt BT_SEL 3
     &trans     &trans     &kp C_RW   &kp C_FF   &kp C_PP                                               &trans     &trans     &trans     &trans     &bt BT_SEL 4
